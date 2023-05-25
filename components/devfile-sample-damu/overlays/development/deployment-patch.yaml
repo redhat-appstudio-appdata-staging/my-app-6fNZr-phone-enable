@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-damu
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app/devfile-sample-damu@sha256:4443da1a21284c4d3ef307cbba4a570f257929165dbbc67785c93b2d8aa3f1c2
+        name: my-nodejs
+        resources: {}
+status: {}
