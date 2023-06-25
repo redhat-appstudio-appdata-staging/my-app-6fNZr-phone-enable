@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-damu
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-damu32tn
+  name: devfile-sample-damui7eh
 spec:
   path: /
   port:
