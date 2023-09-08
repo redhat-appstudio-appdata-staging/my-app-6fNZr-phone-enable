@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-damu
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app/devfile-sample-damu@sha256:a0a089308b337fd042226d55d3c54d6fcd571fd33536bdeb2a2a929640f1298b
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app/devfile-sample-damu@sha256:875c64ada9fedf2b9e8b91e5d7763157e104c7ea7b01c4b98242919f252b3bea
         name: my-nodejs
         ports:
         - containerPort: 3001
